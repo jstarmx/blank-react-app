@@ -1,0 +1,29 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+		"stylelint-order"
+	],
+  "rules": {
+    "color-named": "never",
+    "color-no-hex": true,
+    "declaration-empty-line-before": "never",
+    "declaration-no-important": true,
+    "declaration-property-unit-whitelist": {
+      "/^animation/": ["s"],
+      "font-size": ["em"],
+      "line-height": [""]
+    },
+    "font-family-name-quotes": "always-unless-keyword",
+    "font-weight-notation": "numeric",
+    "function-comma-space-after": "always",
+    "function-max-empty-lines": 0,
+    "function-url-quotes": "always",
+    "max-empty-lines": 1,
+    "order/properties-alphabetical-order": true,
+    "selector-attribute-quotes": "always",
+    "selector-max-empty-lines": 0,
+    "selector-no-id": true,
+    "string-quotes": "double",
+    "value-list-max-empty-lines": 0
+  }
+}
